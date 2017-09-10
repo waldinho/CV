@@ -786,7 +786,6 @@ input {
         position: static;
     }
     li {
-        display: block;
         width: 100%;
     }
     li a {
