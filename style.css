@@ -407,6 +407,12 @@ header h2 {
     width: 50%;
 }
 
+.institution {
+    font-size: 1.17em;
+    margin: 0 0 1em 0;
+    font-weight: bold;
+}
+
 .courses {
     clear: both;
 }
@@ -806,5 +812,13 @@ input {
     }
     .__cf_email__ {
         margin: 0 0 0 13px;
+    }
+    .work_date,
+    .work_position,
+    .work_website,
+    .institution,
+    .study_date,
+    .qualification {
+        width: 100%;
     }
 }
