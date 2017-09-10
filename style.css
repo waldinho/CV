@@ -112,6 +112,10 @@ pre {
     margin: 0
 }
 
+p.summary {
+    margin: 1em 0
+}
+
 pre,
 code,
 kbd,
