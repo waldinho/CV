@@ -277,14 +277,14 @@ table {
 
 body {
     background: #FF7575;
-    font-size: 0.75em;
-    font-family: 'Quicksand', sans-serif;
+    font-size: 0.9em;
+    font-family: 'Josefin Sans', sans-serif;
     /*font-family: 'Josefin Slab', serif;*/
-    color: #888;
+    color: #000;
 }
 
 em {
-    color: #999;
+    color: #888;
 }
 
 p {
@@ -330,6 +330,8 @@ header h1 {
     color: #FFFFFF;
     max-width: 700px;
     margin: 0 auto;
+    font-weight: 100;
+    padding-bottom: 5px;
 }
 
 header h2 {
@@ -341,7 +343,7 @@ header h2 {
 
 .container {
     max-width: 700px;
-    padding: 170px 50px 0 50px;
+    padding: 175px 50px 0 50px;
     margin: 0 auto;
     background: #fff;
 }
@@ -361,7 +363,7 @@ header h2 {
 #basics .contact strong {
     line-height: 1.3;
     float: left;
-    width: 80px;
+    margin-right: 10px;
 }
 
 .contact h3 {
@@ -710,13 +712,26 @@ input {
     width: 50%;
 }
 
+.inner-center {
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
 .left {
     float: left;
     padding: 14px;
 }
 
 .small {
-    font-size: 11px;
+    font-size: 12px;
+    line-height: 0.1;
 }
 
 @media only screen and (max-width: 600px) {
@@ -759,7 +774,7 @@ input {
     }
     .left {
         float: left;
-        padding: 23px;
+        padding: 5px;
     }
     header {
         padding: 20px 0;
