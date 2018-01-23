@@ -800,13 +800,13 @@ input {
     }
     .left {
         float: left;
-        padding: 5px;
+        padding: 10px 5px 5px 10px;
     }
     header {
         padding: 20px 0;
     }
     .container {
-        padding: 100px 30px 0 30px;
+        padding: 100px 25px 0 25px;
     }
     .website,
     .email,
