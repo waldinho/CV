@@ -320,17 +320,17 @@ blockquote {
     margin-bottom: 1em;
 }
 
-header {
+.print {
     background: #FF7575;
     padding: 50px 0;
-    position: fixed;
+    position: absolute;
     width: 100%;
     margin: 0 auto;
     text-align: center;
     z-index: 99999;
 }
 
-header h1 {
+.print h1 {
     color: #FFFFFF;
     max-width: 700px;
     margin: 0 auto;
@@ -338,7 +338,7 @@ header h1 {
     padding-bottom: 5px;
 }
 
-header h2 {
+.print h2 {
     color: #F3F3F3;
     font-size: 1em;
     max-width: 700px;
@@ -748,12 +748,12 @@ input {
     width: 100%;
     margin: 0 auto;
     text-align: center;
-    padding: 12px 0 0 0;
+    padding: 12px 0 80px 0;
 }
 
 .left {
     float: left;
-    padding: 14px;
+    padding: 14px 4px 14px;
 }
 
 .small {
